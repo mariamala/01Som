@@ -24,7 +24,7 @@ namespace Som
 
             byte kleinGetal2 = 10, kleineSom;
 
-            kleineSom = (byte)(int)kleinGetal1 + (int)kleinGetal2);
+            kleineSom = (byte)((byte)(int)kleinGetal1 + (int)kleinGetal2);
 
             //INPUT
             // VRAAG getal1
@@ -45,7 +45,8 @@ namespace Som
 
             //WACHTEN
             Console.WriteLine();
-            Console.Write("Druk op Enter af te sluiten...");
+            Console.Write("Druk op Enter om af te sluiten...");
+            Console.ReadLine();
         }
     }
 }
